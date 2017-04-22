@@ -1,4 +1,4 @@
-# win-input-handling
+# winput
 A small collection of code for basic Input Emulation on Windows
 
 # License
