@@ -202,7 +202,7 @@ def key_down(code):
     x = Input( c_ulong(1), ii_ )
     SendInput(1, pointer(x), sizeof(x))
 
-def key_up(hexKeyCode):
+def key_up(code):
     extra = c_ulong(0)
     ii_ = Input_I()
     ii_.ki = KeyBdInput( 0, code, 0x0008 | 0x0002, 0, pointer(extra) )
